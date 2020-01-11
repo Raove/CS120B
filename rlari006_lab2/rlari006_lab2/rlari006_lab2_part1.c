@@ -1,8 +1,10 @@
-/*
+/* Raoul Larios   rlari006@ucr.edu
  * rlari006_lab2_part1.c
+ * Lab Section : 024
+ * Lab 2 Part 1
  *
- * Created: 1/11/2020 9:52:04 AM
- * Author : Raoul Larios
+ * I acknowledge all content is my own work while following
+ * the instructions and lab manuals as reference to my work
  */ 
 
 #include <avr/io.h>

@@ -1,7 +1,7 @@
 /* Raoul Larios   rlari006@ucr.edu
- * rlari006_lab2_part2.c
+ * rlari006_lab2_part3.c
  * Lab Section : 024
- * Lab 2 Part 2
+ * Lab 2 Part 3
  *
  * I acknowledge all content is my own work while following
  * the instructions and lab manuals as reference to my work
@@ -43,6 +43,10 @@ int main(void)
 		if (park_space_4 == 0x08)
 		{
     		cntavail = cntavail +0x01;
+		}
+		if (cntavail == 4)
+		{
+			cntavail = 0x80; //lot full so PC7 is set to 1 to indicate full
 		}
 		PORTC = cntavail;
 		cntavail = 0;	// Have to reset it because it loops and increases the number
