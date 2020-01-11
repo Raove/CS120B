@@ -11,6 +11,7 @@
 *.d
 *.o
 *.mk
+*.cproj
 Makefile
 
 # Prerequisites
