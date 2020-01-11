@@ -1,3 +1,18 @@
+.atsuo
+*.atsln
+*.xml
+*.cpproj
+*.eep
+*.elf
+*.hex
+*.lss
+*.map
+*.srec
+*.d
+*.o
+*.mk
+Makefile
+
 # Prerequisites
 *.d
 
