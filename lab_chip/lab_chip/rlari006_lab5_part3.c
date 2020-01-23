@@ -17,38 +17,49 @@ int main(void)
 		
 	while(1)
 	{
-		PORTC = 0x00;
-		for (long i = 0; i < 10000; i++)
-		{
-		}
-		PORTC = 0x11;
-		for (long i = 0; i < 10000; i++)
-		{
-		}
-		PORTC = 0x22;
-		for (long i = 0; i < 10000; i++)
-		{
-		}
-		PORTC = 0x33;
-		for (long i = 0; i < 10000; i++)
-		{
-		}
-		PORTC = 0x44;
-		for (long i = 0; i < 10000; i++)
-		{
-		}
-		PORTC = 0x55;
-		for (long i = 0; i < 10000; i++)
+		for (long i = 0; i < 7000; i++)
 		{
 		}
 		PORTC = 0x66;
-		for (long i = 0; i < 10000; i++)
+		for (long i = 0; i < 7000; i++)
 		{
 		}
 		PORTC = 0x77;
-		for (long i = 0; i < 10000; i++)
+		for (long i = 0; i < 7000; i++)
 		{
 		}
 		PORTC = 0x88;
+		for (long i = 0; i < 7000; i++)
+		{
+		}
+		PORTC = 0x99;
+		for (long i = 0; i < 7000; i++)
+		{
+		}
+		PORTC = 0xAA;
+		for (long i = 0; i < 7000; i++)
+		{
+		}
+		PORTC = 0xFF;
+		for (long i = 0; i < 7000; i++)
+		{
+		}
+		PORTC = 0xAA;
+		for (long i = 0; i < 7000; i++)
+		{
+		}
+		PORTC = 0x99;
+		for (long i = 0; i < 7000; i++)
+		{
+		}
+		PORTC = 0x88;
+		for (long i = 0; i < 7000; i++)
+		{
+		}
+		PORTC = 0x77;
+		for (long i = 0; i < 7000; i++)
+		{
+		}
+		PORTC = 0x66;
 	}
 }
